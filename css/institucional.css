@@ -53,6 +53,15 @@
     width: 100vw;
 }
 
+@media screen and (min-width:768px){
+    .institucional__contacto-email{
+        display: inline-block;
+    }
+    .institucional__video{
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 768px){
     .institucional__contacto{
         display: inline-block;
@@ -74,9 +83,9 @@
         align-self: flex-end;
 
         /* posible error  */
-        width: 100%;
+        width: 375px;
     }
-
+    s
     .institucional__contacto-email {
         display: block;
     }
